@@ -38,7 +38,6 @@ exports.login = async (req,res) => {
     } catch (error) {
         return res.status(500).json({errors:true,message:error.message})
     }
-    
 }
 
 exports.updateUser = async (req,res) => {
